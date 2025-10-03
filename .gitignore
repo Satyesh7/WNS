@@ -1,0 +1,93 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Virtual environment
+venv/
+env/
+ENV/
+.venv/
+.pyenv/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# MyPy / type checker
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# Pylint / other static analysis
+pylint-report.txt
+pylint-global.txt
+
+# PyCharm
+.idea/
+
+# VS Code
+.vscode/
+
+# macOS
+.DS_Store
+
+# dotenv
+.env
+.env.*
+
+# Logs
+*.log
+
+# Docker
+*.container
+*.pid
+*.tar
+*.log
+docker-compose.override.yml
+
+# Others
+*.bak
+*.swp
+*.tmp
+
+# Ignore local settings or config files
+settings_local.py
+
+# If using Tesseract OCR cache files
+tessdata/
+
+# If storing processed OCR images
+output/
+processed_images/
+
+# Ignore documentation build files
+docs/_build/
