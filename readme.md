@@ -2,6 +2,12 @@
 
 A simple yet robust web application that generates puns and one-liners based on user-provided topics. This project is built with an enterprise-grade mindset, featuring a decoupled frontend/backend architecture, configurable safety guardrails for responsible AI usage, and robust error handling.
 
+## Working Screenshots:
+
+<img width="886" height="459" alt="s1" src="https://github.com/user-attachments/assets/db05e893-13f5-4c27-8910-f9c3f102bacf" />
+<img width="796" height="454" alt="s3" src="https://github.com/user-attachments/assets/f7b7b98d-c744-4075-b2f8-05a2efadd400" />
+<img width="920" height="434" alt="s2" src="https://github.com/user-attachments/assets/6ee2e4b8-1b42-41fa-b7be-9a1f4a7f19c1" />
+
 ## Features
 
 -   **Topic-Based Jokes**: Users can enter any topic to receive a relevant pun.
