@@ -1,0 +1,6 @@
+Flask
+langchain
+langchain-google-genai
+google-generativeai
+flask-cors
+Werkzeug==2.3.8
