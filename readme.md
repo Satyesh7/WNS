@@ -1,4 +1,49 @@
+# Joke Generator
 
+A simple yet robust web application that generates puns and one-liners based on user-provided topics. This project is built with an enterprise-grade mindset, featuring a decoupled frontend/backend architecture, configurable safety guardrails for responsible AI usage, and robust error handling.
+
+## Features
+
+-   **Topic-Based Jokes**: Users can enter any topic to receive a relevant pun.
+-   **AI-Powered**: Leverages Google's powerful Gemini Pro model for creative and witty joke generation.
+-   **Safety Guardrails**: Includes a configurable content moderation service to block requests on sensitive or inappropriate topics.
+-   **Decoupled Architecture**: A clean separation between the Python/Flask backend API and the vanilla HTML/CSS/JavaScript frontend.
+-   **Robust Error Handling**: The API and frontend gracefully handle invalid inputs, safety violations, and server errors.
+
+## Tech Stack & Architecture
+
+The application is split into two main services:
+
+-   **Backend**:
+    -   **Language**: Python 3.9+
+    -   **Framework**: Flask
+    -   **AI Orchestration**: LangChain
+    -   **AI Model**: Google Generative AI (Gemini Pro)
+    -   **Dependencies**: See `backend/requirements.txt`
+
+-   **Frontend**:
+    -   **Structure**: HTML5
+    -   **Styling**: CSS3
+    -   **Logic**: Vanilla JavaScript (ES6)
+
+## Project Structure
+joke-generator/
+├── backend/
+│ ├── app/
+│ │ ├── init.py
+│ │ ├── main.py
+│ │ ├── services/
+│ │ │ ├── joke_service.py
+│ │ │ └── safety_service.py
+│ │ └── config/
+│ │ └── banned_keywords.py
+│ └── requirements.txt
+├── frontend/
+│ ├── index.html
+│ ├── static/
+│ │ ├── css/style.css
+│ │ └── js/script.js
+└── README.md
 ## Prerequisites
 
 Before you begin, ensure you have the following installed on your system:
